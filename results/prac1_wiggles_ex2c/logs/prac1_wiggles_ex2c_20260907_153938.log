@@ -1,0 +1,138 @@
+2026-09-07 15:39:38,651 | INFO    | ============================================================
+2026-09-07 15:39:38,652 | INFO    | STARTING PRAC1_WIGGLES_EX2C
+2026-09-07 15:39:38,652 | INFO    | ============================================================
+2026-09-07 15:39:38,652 | INFO    | Log file: results\prac1_wiggles_ex2c\logs\prac1_wiggles_ex2c_20260907_153938.log
+2026-09-07 15:39:38,652 | INFO    | Starting simulation
+2026-09-07 15:39:38,652 | INFO    | Critical cell Peclet criterion: Pe_h <= 2
+2026-09-07 15:39:38,652 | INFO    | Theoretical critical N = 250000
+2026-09-07 15:39:38,670 | INFO    | Running case N = 5000
+2026-09-07 15:39:38,670 | INFO    | Discretization scheme: central_scheme_1d
+2026-09-07 15:39:38,670 | INFO    | Assembling convection-diffusion system (4999 internal nodes)
+2026-09-07 15:39:38,670 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 15:39:38,672 | ERROR   | Case N=5000 failed.
+2026-09-07 15:39:38,672 | ERROR   | ============================================================
+2026-09-07 15:39:38,672 | ERROR   | EXCEPTION OCCURRED
+2026-09-07 15:39:38,672 | ERROR   | ============================================================
+2026-09-07 15:39:38,672 | ERROR   | Message: Unrecognized field name "value".
+2026-09-07 15:39:38,673 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\solvers\convection_diffusion_1d.m | Function: convection_diffusion_1d | Line: 239
+2026-09-07 15:39:38,673 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\problems\prac1\wiggles\c.m | Function: c | Line: 72
+2026-09-07 15:39:38,673 | ERROR   | ============================================================
+2026-09-07 15:39:38,673 | INFO    | Running case N = 10000
+2026-09-07 15:39:38,674 | INFO    | Discretization scheme: central_scheme_1d
+2026-09-07 15:39:38,674 | INFO    | Assembling convection-diffusion system (9999 internal nodes)
+2026-09-07 15:39:38,674 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 15:39:38,675 | ERROR   | Case N=10000 failed.
+2026-09-07 15:39:38,675 | ERROR   | ============================================================
+2026-09-07 15:39:38,675 | ERROR   | EXCEPTION OCCURRED
+2026-09-07 15:39:38,675 | ERROR   | ============================================================
+2026-09-07 15:39:38,675 | ERROR   | Message: Unrecognized field name "value".
+2026-09-07 15:39:38,676 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\solvers\convection_diffusion_1d.m | Function: convection_diffusion_1d | Line: 239
+2026-09-07 15:39:38,676 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\problems\prac1\wiggles\c.m | Function: c | Line: 72
+2026-09-07 15:39:38,676 | ERROR   | ============================================================
+2026-09-07 15:39:38,676 | INFO    | Running case N = 25000
+2026-09-07 15:39:38,676 | INFO    | Discretization scheme: central_scheme_1d
+2026-09-07 15:39:38,677 | INFO    | Assembling convection-diffusion system (24999 internal nodes)
+2026-09-07 15:39:38,678 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 15:39:38,680 | ERROR   | Case N=25000 failed.
+2026-09-07 15:39:38,681 | ERROR   | ============================================================
+2026-09-07 15:39:38,681 | ERROR   | EXCEPTION OCCURRED
+2026-09-07 15:39:38,682 | ERROR   | ============================================================
+2026-09-07 15:39:38,682 | ERROR   | Message: Unrecognized field name "value".
+2026-09-07 15:39:38,682 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\solvers\convection_diffusion_1d.m | Function: convection_diffusion_1d | Line: 239
+2026-09-07 15:39:38,682 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\problems\prac1\wiggles\c.m | Function: c | Line: 72
+2026-09-07 15:39:38,682 | ERROR   | ============================================================
+2026-09-07 15:39:38,682 | INFO    | Running case N = 50000
+2026-09-07 15:39:38,683 | INFO    | Discretization scheme: central_scheme_1d
+2026-09-07 15:39:38,683 | INFO    | Assembling convection-diffusion system (49999 internal nodes)
+2026-09-07 15:39:38,686 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 15:39:38,688 | ERROR   | Case N=50000 failed.
+2026-09-07 15:39:38,688 | ERROR   | ============================================================
+2026-09-07 15:39:38,688 | ERROR   | EXCEPTION OCCURRED
+2026-09-07 15:39:38,688 | ERROR   | ============================================================
+2026-09-07 15:39:38,688 | ERROR   | Message: Unrecognized field name "value".
+2026-09-07 15:39:38,688 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\solvers\convection_diffusion_1d.m | Function: convection_diffusion_1d | Line: 239
+2026-09-07 15:39:38,689 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\problems\prac1\wiggles\c.m | Function: c | Line: 72
+2026-09-07 15:39:38,689 | ERROR   | ============================================================
+2026-09-07 15:39:38,690 | INFO    | Running case N = 100000
+2026-09-07 15:39:38,690 | INFO    | Discretization scheme: central_scheme_1d
+2026-09-07 15:39:38,691 | INFO    | Assembling convection-diffusion system (99999 internal nodes)
+2026-09-07 15:39:38,697 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 15:39:38,699 | ERROR   | Case N=100000 failed.
+2026-09-07 15:39:38,699 | ERROR   | ============================================================
+2026-09-07 15:39:38,699 | ERROR   | EXCEPTION OCCURRED
+2026-09-07 15:39:38,699 | ERROR   | ============================================================
+2026-09-07 15:39:38,699 | ERROR   | Message: Unrecognized field name "value".
+2026-09-07 15:39:38,701 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\solvers\convection_diffusion_1d.m | Function: convection_diffusion_1d | Line: 239
+2026-09-07 15:39:38,701 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\problems\prac1\wiggles\c.m | Function: c | Line: 72
+2026-09-07 15:39:38,701 | ERROR   | ============================================================
+2026-09-07 15:39:38,701 | INFO    | Running case N = 200000
+2026-09-07 15:39:38,702 | INFO    | Discretization scheme: central_scheme_1d
+2026-09-07 15:39:38,703 | INFO    | Assembling convection-diffusion system (199999 internal nodes)
+2026-09-07 15:39:38,716 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 15:39:38,722 | ERROR   | Case N=200000 failed.
+2026-09-07 15:39:38,723 | ERROR   | ============================================================
+2026-09-07 15:39:38,723 | ERROR   | EXCEPTION OCCURRED
+2026-09-07 15:39:38,723 | ERROR   | ============================================================
+2026-09-07 15:39:38,723 | ERROR   | Message: Unrecognized field name "value".
+2026-09-07 15:39:38,723 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\solvers\convection_diffusion_1d.m | Function: convection_diffusion_1d | Line: 239
+2026-09-07 15:39:38,723 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\problems\prac1\wiggles\c.m | Function: c | Line: 72
+2026-09-07 15:39:38,723 | ERROR   | ============================================================
+2026-09-07 15:39:38,723 | INFO    | Running case N = 225000
+2026-09-07 15:39:38,725 | INFO    | Discretization scheme: central_scheme_1d
+2026-09-07 15:39:38,725 | INFO    | Assembling convection-diffusion system (224999 internal nodes)
+2026-09-07 15:39:38,739 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 15:39:38,739 | ERROR   | Case N=225000 failed.
+2026-09-07 15:39:38,739 | ERROR   | ============================================================
+2026-09-07 15:39:38,739 | ERROR   | EXCEPTION OCCURRED
+2026-09-07 15:39:38,739 | ERROR   | ============================================================
+2026-09-07 15:39:38,739 | ERROR   | Message: Unrecognized field name "value".
+2026-09-07 15:39:38,739 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\solvers\convection_diffusion_1d.m | Function: convection_diffusion_1d | Line: 239
+2026-09-07 15:39:38,739 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\problems\prac1\wiggles\c.m | Function: c | Line: 72
+2026-09-07 15:39:38,739 | ERROR   | ============================================================
+2026-09-07 15:39:38,739 | INFO    | Running case N = 250000
+2026-09-07 15:39:38,739 | INFO    | Discretization scheme: central_scheme_1d
+2026-09-07 15:39:38,739 | INFO    | Assembling convection-diffusion system (249999 internal nodes)
+2026-09-07 15:39:38,770 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 15:39:38,778 | ERROR   | Case N=250000 failed.
+2026-09-07 15:39:38,778 | ERROR   | ============================================================
+2026-09-07 15:39:38,778 | ERROR   | EXCEPTION OCCURRED
+2026-09-07 15:39:38,778 | ERROR   | ============================================================
+2026-09-07 15:39:38,781 | ERROR   | Message: Unrecognized field name "value".
+2026-09-07 15:39:38,781 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\solvers\convection_diffusion_1d.m | Function: convection_diffusion_1d | Line: 239
+2026-09-07 15:39:38,781 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\problems\prac1\wiggles\c.m | Function: c | Line: 72
+2026-09-07 15:39:38,781 | ERROR   | ============================================================
+2026-09-07 15:39:38,781 | INFO    | Running case N = 500000
+2026-09-07 15:39:38,784 | INFO    | Discretization scheme: central_scheme_1d
+2026-09-07 15:39:38,784 | INFO    | Assembling convection-diffusion system (499999 internal nodes)
+2026-09-07 15:39:38,834 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 15:39:38,850 | ERROR   | Case N=500000 failed.
+2026-09-07 15:39:38,850 | ERROR   | ============================================================
+2026-09-07 15:39:38,850 | ERROR   | EXCEPTION OCCURRED
+2026-09-07 15:39:38,850 | ERROR   | ============================================================
+2026-09-07 15:39:38,851 | ERROR   | Message: Unrecognized field name "value".
+2026-09-07 15:39:38,851 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\solvers\convection_diffusion_1d.m | Function: convection_diffusion_1d | Line: 239
+2026-09-07 15:39:38,851 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\problems\prac1\wiggles\c.m | Function: c | Line: 72
+2026-09-07 15:39:38,851 | ERROR   | ============================================================
+2026-09-07 15:39:38,852 | INFO    | Running case N = 1000000
+2026-09-07 15:39:38,857 | INFO    | Discretization scheme: central_scheme_1d
+2026-09-07 15:39:38,857 | INFO    | Assembling convection-diffusion system (999999 internal nodes)
+2026-09-07 15:39:38,915 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 15:39:38,945 | ERROR   | Case N=1000000 failed.
+2026-09-07 15:39:38,945 | ERROR   | ============================================================
+2026-09-07 15:39:38,945 | ERROR   | EXCEPTION OCCURRED
+2026-09-07 15:39:38,945 | ERROR   | ============================================================
+2026-09-07 15:39:38,945 | ERROR   | Message: Unrecognized field name "value".
+2026-09-07 15:39:38,945 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\solvers\convection_diffusion_1d.m | Function: convection_diffusion_1d | Line: 239
+2026-09-07 15:39:38,945 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\problems\prac1\wiggles\c.m | Function: c | Line: 72
+2026-09-07 15:39:38,945 | ERROR   | ============================================================
+2026-09-07 15:39:39,387 | INFO    | Solution figure saved
+2026-09-07 15:39:39,388 | ERROR   | Fatal error occurred.
+2026-09-07 15:39:39,388 | ERROR   | ============================================================
+2026-09-07 15:39:39,388 | ERROR   | EXCEPTION OCCURRED
+2026-09-07 15:39:39,388 | ERROR   | ============================================================
+2026-09-07 15:39:39,388 | ERROR   | Message: Dot indexing is not supported for variables of this type.
+2026-09-07 15:39:39,388 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\problems\prac1\wiggles\c.m | Function: c | Line: 173
+2026-09-07 15:39:39,389 | ERROR   | ============================================================
+2026-09-07 15:39:39,389 | INFO    | ============================================================
+2026-09-07 15:39:39,389 | INFO    | PRAC1_WIGGLES_EX2C FINISHED
+2026-09-07 15:39:39,389 | INFO    | ============================================================

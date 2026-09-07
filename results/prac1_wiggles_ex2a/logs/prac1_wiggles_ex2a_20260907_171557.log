@@ -1,0 +1,87 @@
+2026-09-07 17:15:57,486 | INFO    | ============================================================
+2026-09-07 17:15:57,487 | INFO    | STARTING PRAC1_WIGGLES_EX2A
+2026-09-07 17:15:57,487 | INFO    | ============================================================
+2026-09-07 17:15:57,487 | INFO    | Log file: results\prac1_wiggles_ex2a\logs\prac1_wiggles_ex2a_20260907_171557.log
+2026-09-07 17:15:57,488 | INFO    | Starting simulation
+2026-09-07 17:15:57,488 | INFO    | Critical cell Peclet criterion: Pe_h <= 2
+2026-09-07 17:15:57,488 | INFO    | Theoretical critical N = 250000
+2026-09-07 17:15:57,511 | INFO    | Running case N = 5000
+2026-09-07 17:15:57,511 | INFO    | Discretization scheme: central_scheme_1d
+2026-09-07 17:15:57,511 | INFO    | Assembling convection-diffusion system (4999 internal nodes)
+2026-09-07 17:15:57,511 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 17:15:57,511 | INFO    | Solution assembled (5001 total nodes)
+2026-09-07 17:15:57,511 | INFO    | Convection-diffusion solution completed
+2026-09-07 17:15:57,511 | INFO    | N = 5000 | dx = 2.000000e-03 | Pe_h = 100.000
+2026-09-07 17:15:57,511 | INFO    | Running case N = 10000
+2026-09-07 17:15:57,526 | INFO    | Discretization scheme: central_scheme_1d
+2026-09-07 17:15:57,526 | INFO    | Assembling convection-diffusion system (9999 internal nodes)
+2026-09-07 17:15:57,526 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 17:15:57,526 | INFO    | Solution assembled (10001 total nodes)
+2026-09-07 17:15:57,526 | INFO    | Convection-diffusion solution completed
+2026-09-07 17:15:57,526 | INFO    | N = 10000 | dx = 1.000000e-03 | Pe_h = 50.000
+2026-09-07 17:15:57,526 | INFO    | Running case N = 25000
+2026-09-07 17:15:57,526 | INFO    | Discretization scheme: central_scheme_1d
+2026-09-07 17:15:57,526 | INFO    | Assembling convection-diffusion system (24999 internal nodes)
+2026-09-07 17:15:57,532 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 17:15:57,533 | INFO    | Solution assembled (25001 total nodes)
+2026-09-07 17:15:57,533 | INFO    | Convection-diffusion solution completed
+2026-09-07 17:15:57,534 | INFO    | N = 25000 | dx = 4.000000e-04 | Pe_h = 20.000
+2026-09-07 17:15:57,536 | INFO    | Running case N = 50000
+2026-09-07 17:15:57,537 | INFO    | Discretization scheme: central_scheme_1d
+2026-09-07 17:15:57,537 | INFO    | Assembling convection-diffusion system (49999 internal nodes)
+2026-09-07 17:15:57,541 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 17:15:57,543 | INFO    | Solution assembled (50001 total nodes)
+2026-09-07 17:15:57,543 | INFO    | Convection-diffusion solution completed
+2026-09-07 17:15:57,543 | INFO    | N = 50000 | dx = 2.000000e-04 | Pe_h = 10.000
+2026-09-07 17:15:57,543 | INFO    | Running case N = 100000
+2026-09-07 17:15:57,543 | INFO    | Discretization scheme: central_scheme_1d
+2026-09-07 17:15:57,543 | INFO    | Assembling convection-diffusion system (99999 internal nodes)
+2026-09-07 17:15:57,543 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 17:15:57,558 | INFO    | Solution assembled (100001 total nodes)
+2026-09-07 17:15:57,558 | INFO    | Convection-diffusion solution completed
+2026-09-07 17:15:57,558 | INFO    | N = 100000 | dx = 1.000000e-04 | Pe_h = 5.000
+2026-09-07 17:15:57,558 | INFO    | Running case N = 200000
+2026-09-07 17:15:57,558 | INFO    | Discretization scheme: central_scheme_1d
+2026-09-07 17:15:57,558 | INFO    | Assembling convection-diffusion system (199999 internal nodes)
+2026-09-07 17:15:57,574 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 17:15:57,574 | INFO    | Solution assembled (200001 total nodes)
+2026-09-07 17:15:57,574 | INFO    | Convection-diffusion solution completed
+2026-09-07 17:15:57,585 | INFO    | N = 200000 | dx = 5.000000e-05 | Pe_h = 2.500
+2026-09-07 17:15:57,588 | INFO    | Running case N = 225000
+2026-09-07 17:15:57,589 | INFO    | Discretization scheme: central_scheme_1d
+2026-09-07 17:15:57,589 | INFO    | Assembling convection-diffusion system (224999 internal nodes)
+2026-09-07 17:15:57,606 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 17:15:57,612 | INFO    | Solution assembled (225001 total nodes)
+2026-09-07 17:15:57,612 | INFO    | Convection-diffusion solution completed
+2026-09-07 17:15:57,614 | INFO    | N = 225000 | dx = 4.444444e-05 | Pe_h = 2.222
+2026-09-07 17:15:57,617 | INFO    | Running case N = 250000
+2026-09-07 17:15:57,619 | INFO    | Discretization scheme: central_scheme_1d
+2026-09-07 17:15:57,619 | INFO    | Assembling convection-diffusion system (249999 internal nodes)
+2026-09-07 17:15:57,637 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 17:15:57,643 | INFO    | Solution assembled (250001 total nodes)
+2026-09-07 17:15:57,644 | INFO    | Convection-diffusion solution completed
+2026-09-07 17:15:57,645 | INFO    | N = 250000 | dx = 4.000000e-05 | Pe_h = 2.000
+2026-09-07 17:15:57,648 | INFO    | Running case N = 500000
+2026-09-07 17:15:57,650 | INFO    | Discretization scheme: central_scheme_1d
+2026-09-07 17:15:57,650 | INFO    | Assembling convection-diffusion system (499999 internal nodes)
+2026-09-07 17:15:57,669 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 17:15:57,688 | INFO    | Solution assembled (500001 total nodes)
+2026-09-07 17:15:57,688 | INFO    | Convection-diffusion solution completed
+2026-09-07 17:15:57,688 | INFO    | N = 500000 | dx = 2.000000e-05 | Pe_h = 1.000
+2026-09-07 17:15:57,688 | INFO    | Running case N = 1000000
+2026-09-07 17:15:57,700 | INFO    | Discretization scheme: central_scheme_1d
+2026-09-07 17:15:57,700 | INFO    | Assembling convection-diffusion system (999999 internal nodes)
+2026-09-07 17:15:57,763 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 17:15:57,795 | INFO    | Solution assembled (1000001 total nodes)
+2026-09-07 17:15:57,795 | INFO    | Convection-diffusion solution completed
+2026-09-07 17:15:57,798 | INFO    | N = 1000000 | dx = 1.000000e-05 | Pe_h = 0.500
+2026-09-07 17:15:58,480 | INFO    | Solution figure saved
+2026-09-07 17:15:58,498 | INFO    | Average slope before Pe_h=2 : -0.000
+2026-09-07 17:15:58,498 | INFO    | Average slope after  Pe_h=2 : -0.000
+2026-09-07 17:15:59,052 | INFO    | Error convergence figure saved
+2026-09-07 17:15:59,055 | INFO    | Data saved
+2026-09-07 17:15:59,056 | INFO    | Successful cases = 10/10
+2026-09-07 17:15:59,056 | INFO    | Simulation completed successfully
+2026-09-07 17:15:59,056 | INFO    | ============================================================
+2026-09-07 17:15:59,056 | INFO    | PRAC1_WIGGLES_EX2A FINISHED
+2026-09-07 17:15:59,056 | INFO    | ============================================================

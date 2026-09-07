@@ -1,0 +1,24 @@
+2026-09-07 17:44:52,208 | INFO    | ============================================================
+2026-09-07 17:44:52,209 | INFO    | STARTING PRAC1_WIGGLES_EX3
+2026-09-07 17:44:52,209 | INFO    | ============================================================
+2026-09-07 17:44:52,209 | INFO    | Log file: results\prac1_wiggles_ex3\logs\prac1_wiggles_ex3_20260907_174452.log
+2026-09-07 17:44:52,209 | INFO    | Starting simulation
+2026-09-07 17:44:52,210 | INFO    | Global Peclet number = 500.00
+2026-09-07 17:44:52,210 | INFO    | Running N = 5000
+2026-09-07 17:44:52,214 | INFO    | Running N = 10000
+2026-09-07 17:44:52,217 | INFO    | Running N = 25000
+2026-09-07 17:44:52,223 | INFO    | Running N = 50000
+2026-09-07 17:44:52,234 | INFO    | Running N = 100000
+2026-09-07 17:44:52,257 | INFO    | Running N = 200000
+2026-09-07 17:44:52,300 | INFO    | Running N = 250000
+2026-09-07 17:44:52,358 | INFO    | Running N = 500000
+2026-09-07 17:44:52,455 | INFO    | Running N = 1000000
+2026-09-07 17:44:53,469 | INFO    | Central order vs exact = 2.002
+2026-09-07 17:44:53,470 | INFO    | Upwind order vs exact = 0.995
+2026-09-07 17:44:53,470 | INFO    | Central order from consecutive meshes = 2.205
+2026-09-07 17:44:53,470 | INFO    | Upwind order from consecutive meshes = 0.584
+2026-09-07 17:44:53,473 | INFO    | Data saved
+2026-09-07 17:44:53,474 | INFO    | Simulation completed successfully
+2026-09-07 17:44:53,474 | INFO    | ============================================================
+2026-09-07 17:44:53,474 | INFO    | PRAC1_WIGGLES_EX3 FINISHED
+2026-09-07 17:44:53,474 | INFO    | ============================================================

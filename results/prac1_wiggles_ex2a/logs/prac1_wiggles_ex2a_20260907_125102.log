@@ -1,0 +1,17 @@
+2026-09-07 12:51:02,499 | INFO    | ============================================================
+2026-09-07 12:51:02,499 | INFO    | STARTING PRAC1_WIGGLES_EX2A
+2026-09-07 12:51:02,499 | INFO    | ============================================================
+2026-09-07 12:51:02,499 | INFO    | Log file: results\prac1_wiggles_ex2a\logs\prac1_wiggles_ex2a_20260907_125102.log
+2026-09-07 12:51:02,502 | INFO    | Starting simulation
+2026-09-07 12:51:02,502 | INFO    | Critical cell Peclet criterion: Pe_h <= 2
+2026-09-07 12:51:02,502 | INFO    | Theoretical critical N = 250000
+2026-09-07 12:51:02,528 | INFO    | Running case N = 10
+2026-09-07 12:51:02,529 | INFO    | Discretization scheme: central_scheme_1d
+2026-09-07 12:51:02,529 | INFO    | Assembling convection-diffusion system (9 internal nodes)
+2026-09-07 12:51:02,531 | ERROR   | ============================================================
+2026-09-07 12:51:02,532 | ERROR   | EXCEPTION OCCURRED
+2026-09-07 12:51:02,532 | ERROR   | ============================================================
+2026-09-07 12:51:02,532 | ERROR   | Message: Unrecognized function or variable 'lower'.
+2026-09-07 12:51:02,533 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\solvers\convection_diffusion_1d.m | Function: convection_diffusion_1d | Line: 129
+2026-09-07 12:51:02,533 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\problems\prac1\wiggles\a.m | Function: a | Line: 65
+2026-09-07 12:51:02,534 | ERROR   | ============================================================

@@ -1,0 +1,32 @@
+2026-09-07 17:41:37,559 | INFO    | ============================================================
+2026-09-07 17:41:37,559 | INFO    | STARTING PRAC1_WIGGLES_EX3
+2026-09-07 17:41:37,559 | INFO    | ============================================================
+2026-09-07 17:41:37,559 | INFO    | Log file: results\prac1_wiggles_ex3\logs\prac1_wiggles_ex3_20260907_174137.log
+2026-09-07 17:41:37,559 | INFO    | Starting simulation
+2026-09-07 17:41:37,560 | INFO    | Global Peclet number = 500.00
+2026-09-07 17:41:37,560 | INFO    | Running N = 5000
+2026-09-07 17:41:37,570 | INFO    | N=5000 | Error Central=3.729660e-04 | Error Upwind=2.173749e-02
+2026-09-07 17:41:37,572 | INFO    | Running N = 10000
+2026-09-07 17:41:37,578 | INFO    | N=10000 | Error Central=9.318521e-05 | Error Upwind=1.102076e-02
+2026-09-07 17:41:37,578 | INFO    | Running N = 25000
+2026-09-07 17:41:37,586 | INFO    | N=25000 | Error Central=1.490734e-05 | Error Upwind=4.446222e-03
+2026-09-07 17:41:37,587 | INFO    | Running N = 50000
+2026-09-07 17:41:37,597 | INFO    | N=50000 | Error Central=3.726775e-06 | Error Upwind=2.229557e-03
+2026-09-07 17:41:37,597 | INFO    | Running N = 100000
+2026-09-07 17:41:37,619 | INFO    | N=100000 | Error Central=9.316915e-07 | Error Upwind=1.116402e-03
+2026-09-07 17:41:37,619 | INFO    | Running N = 200000
+2026-09-07 17:41:37,668 | INFO    | N=200000 | Error Central=2.329174e-07 | Error Upwind=5.586085e-04
+2026-09-07 17:41:37,669 | INFO    | Running N = 250000
+2026-09-07 17:41:37,725 | INFO    | N=250000 | Error Central=1.490658e-07 | Error Upwind=4.469521e-04
+2026-09-07 17:41:37,725 | INFO    | Running N = 500000
+2026-09-07 17:41:37,825 | INFO    | N=500000 | Error Central=3.724821e-08 | Error Upwind=2.235414e-04
+2026-09-07 17:41:37,826 | INFO    | Running N = 1000000
+2026-09-07 17:41:38,001 | INFO    | N=1000000 | Error Central=9.216120e-09 | Error Upwind=1.117872e-04
+2026-09-07 17:41:38,001 | INFO    | Average Central order = 2.002
+2026-09-07 17:41:38,001 | INFO    | Average Upwind order = 0.995
+2026-09-07 17:41:38,454 | INFO    | Convergence figure saved
+2026-09-07 17:41:38,465 | INFO    | Data saved
+2026-09-07 17:41:38,465 | INFO    | Simulation completed successfully
+2026-09-07 17:41:38,465 | INFO    | ============================================================
+2026-09-07 17:41:38,466 | INFO    | PRAC1_WIGGLES_EX3 FINISHED
+2026-09-07 17:41:38,466 | INFO    | ============================================================

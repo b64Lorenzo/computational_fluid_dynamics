@@ -1,0 +1,128 @@
+2026-09-07 15:38:56,098 | INFO    | ============================================================
+2026-09-07 15:38:56,099 | INFO    | STARTING PRAC1_WIGGLES_EX2C
+2026-09-07 15:38:56,099 | INFO    | ============================================================
+2026-09-07 15:38:56,099 | INFO    | Log file: results\prac1_wiggles_ex2c\logs\prac1_wiggles_ex2c_20260907_153856.log
+2026-09-07 15:38:56,099 | INFO    | Starting simulation
+2026-09-07 15:38:56,100 | INFO    | Critical cell Peclet criterion: Pe_h <= 2
+2026-09-07 15:38:56,100 | INFO    | Theoretical critical N = 250000
+2026-09-07 15:38:56,120 | INFO    | Running case N = 5000
+2026-09-07 15:38:56,121 | INFO    | Discretization scheme: central_scheme_1d
+2026-09-07 15:38:56,121 | INFO    | Assembling convection-diffusion system (4999 internal nodes)
+2026-09-07 15:38:56,121 | ERROR   | Case N=5000 failed.
+2026-09-07 15:38:56,121 | ERROR   | ============================================================
+2026-09-07 15:38:56,121 | ERROR   | EXCEPTION OCCURRED
+2026-09-07 15:38:56,121 | ERROR   | ============================================================
+2026-09-07 15:38:56,121 | ERROR   | Message: Unrecognized field name "a".
+2026-09-07 15:38:56,121 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\solvers\convection_diffusion_1d.m | Function: convection_diffusion_1d | Line: 154
+2026-09-07 15:38:56,121 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\problems\prac1\wiggles\c.m | Function: c | Line: 72
+2026-09-07 15:38:56,121 | ERROR   | ============================================================
+2026-09-07 15:38:56,121 | INFO    | Running case N = 10000
+2026-09-07 15:38:56,121 | INFO    | Discretization scheme: central_scheme_1d
+2026-09-07 15:38:56,121 | INFO    | Assembling convection-diffusion system (9999 internal nodes)
+2026-09-07 15:38:56,121 | ERROR   | Case N=10000 failed.
+2026-09-07 15:38:56,121 | ERROR   | ============================================================
+2026-09-07 15:38:56,121 | ERROR   | EXCEPTION OCCURRED
+2026-09-07 15:38:56,121 | ERROR   | ============================================================
+2026-09-07 15:38:56,121 | ERROR   | Message: Unrecognized field name "a".
+2026-09-07 15:38:56,121 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\solvers\convection_diffusion_1d.m | Function: convection_diffusion_1d | Line: 154
+2026-09-07 15:38:56,121 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\problems\prac1\wiggles\c.m | Function: c | Line: 72
+2026-09-07 15:38:56,121 | ERROR   | ============================================================
+2026-09-07 15:38:56,121 | INFO    | Running case N = 25000
+2026-09-07 15:38:56,121 | INFO    | Discretization scheme: central_scheme_1d
+2026-09-07 15:38:56,121 | INFO    | Assembling convection-diffusion system (24999 internal nodes)
+2026-09-07 15:38:56,134 | ERROR   | Case N=25000 failed.
+2026-09-07 15:38:56,134 | ERROR   | ============================================================
+2026-09-07 15:38:56,136 | ERROR   | EXCEPTION OCCURRED
+2026-09-07 15:38:56,136 | ERROR   | ============================================================
+2026-09-07 15:38:56,136 | ERROR   | Message: Unrecognized field name "a".
+2026-09-07 15:38:56,136 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\solvers\convection_diffusion_1d.m | Function: convection_diffusion_1d | Line: 154
+2026-09-07 15:38:56,136 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\problems\prac1\wiggles\c.m | Function: c | Line: 72
+2026-09-07 15:38:56,136 | ERROR   | ============================================================
+2026-09-07 15:38:56,136 | INFO    | Running case N = 50000
+2026-09-07 15:38:56,136 | INFO    | Discretization scheme: central_scheme_1d
+2026-09-07 15:38:56,136 | INFO    | Assembling convection-diffusion system (49999 internal nodes)
+2026-09-07 15:38:56,136 | ERROR   | Case N=50000 failed.
+2026-09-07 15:38:56,136 | ERROR   | ============================================================
+2026-09-07 15:38:56,136 | ERROR   | EXCEPTION OCCURRED
+2026-09-07 15:38:56,136 | ERROR   | ============================================================
+2026-09-07 15:38:56,136 | ERROR   | Message: Unrecognized field name "a".
+2026-09-07 15:38:56,136 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\solvers\convection_diffusion_1d.m | Function: convection_diffusion_1d | Line: 154
+2026-09-07 15:38:56,136 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\problems\prac1\wiggles\c.m | Function: c | Line: 72
+2026-09-07 15:38:56,136 | ERROR   | ============================================================
+2026-09-07 15:38:56,136 | INFO    | Running case N = 100000
+2026-09-07 15:38:56,136 | INFO    | Discretization scheme: central_scheme_1d
+2026-09-07 15:38:56,136 | INFO    | Assembling convection-diffusion system (99999 internal nodes)
+2026-09-07 15:38:56,152 | ERROR   | Case N=100000 failed.
+2026-09-07 15:38:56,152 | ERROR   | ============================================================
+2026-09-07 15:38:56,152 | ERROR   | EXCEPTION OCCURRED
+2026-09-07 15:38:56,152 | ERROR   | ============================================================
+2026-09-07 15:38:56,152 | ERROR   | Message: Unrecognized field name "a".
+2026-09-07 15:38:56,153 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\solvers\convection_diffusion_1d.m | Function: convection_diffusion_1d | Line: 154
+2026-09-07 15:38:56,153 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\problems\prac1\wiggles\c.m | Function: c | Line: 72
+2026-09-07 15:38:56,153 | ERROR   | ============================================================
+2026-09-07 15:38:56,153 | INFO    | Running case N = 200000
+2026-09-07 15:38:56,154 | INFO    | Discretization scheme: central_scheme_1d
+2026-09-07 15:38:56,154 | INFO    | Assembling convection-diffusion system (199999 internal nodes)
+2026-09-07 15:38:56,157 | ERROR   | Case N=200000 failed.
+2026-09-07 15:38:56,157 | ERROR   | ============================================================
+2026-09-07 15:38:56,157 | ERROR   | EXCEPTION OCCURRED
+2026-09-07 15:38:56,157 | ERROR   | ============================================================
+2026-09-07 15:38:56,157 | ERROR   | Message: Unrecognized field name "a".
+2026-09-07 15:38:56,157 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\solvers\convection_diffusion_1d.m | Function: convection_diffusion_1d | Line: 154
+2026-09-07 15:38:56,157 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\problems\prac1\wiggles\c.m | Function: c | Line: 72
+2026-09-07 15:38:56,157 | ERROR   | ============================================================
+2026-09-07 15:38:56,157 | INFO    | Running case N = 225000
+2026-09-07 15:38:56,157 | INFO    | Discretization scheme: central_scheme_1d
+2026-09-07 15:38:56,157 | INFO    | Assembling convection-diffusion system (224999 internal nodes)
+2026-09-07 15:38:56,173 | ERROR   | Case N=225000 failed.
+2026-09-07 15:38:56,173 | ERROR   | ============================================================
+2026-09-07 15:38:56,173 | ERROR   | EXCEPTION OCCURRED
+2026-09-07 15:38:56,173 | ERROR   | ============================================================
+2026-09-07 15:38:56,173 | ERROR   | Message: Unrecognized field name "a".
+2026-09-07 15:38:56,173 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\solvers\convection_diffusion_1d.m | Function: convection_diffusion_1d | Line: 154
+2026-09-07 15:38:56,173 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\problems\prac1\wiggles\c.m | Function: c | Line: 72
+2026-09-07 15:38:56,173 | ERROR   | ============================================================
+2026-09-07 15:38:56,173 | INFO    | Running case N = 250000
+2026-09-07 15:38:56,173 | INFO    | Discretization scheme: central_scheme_1d
+2026-09-07 15:38:56,173 | INFO    | Assembling convection-diffusion system (249999 internal nodes)
+2026-09-07 15:38:56,203 | ERROR   | Case N=250000 failed.
+2026-09-07 15:38:56,203 | ERROR   | ============================================================
+2026-09-07 15:38:56,203 | ERROR   | EXCEPTION OCCURRED
+2026-09-07 15:38:56,203 | ERROR   | ============================================================
+2026-09-07 15:38:56,203 | ERROR   | Message: Unrecognized field name "a".
+2026-09-07 15:38:56,204 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\solvers\convection_diffusion_1d.m | Function: convection_diffusion_1d | Line: 154
+2026-09-07 15:38:56,204 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\problems\prac1\wiggles\c.m | Function: c | Line: 72
+2026-09-07 15:38:56,204 | ERROR   | ============================================================
+2026-09-07 15:38:56,204 | INFO    | Running case N = 500000
+2026-09-07 15:38:56,208 | INFO    | Discretization scheme: central_scheme_1d
+2026-09-07 15:38:56,209 | INFO    | Assembling convection-diffusion system (499999 internal nodes)
+2026-09-07 15:38:56,240 | ERROR   | Case N=500000 failed.
+2026-09-07 15:38:56,241 | ERROR   | ============================================================
+2026-09-07 15:38:56,241 | ERROR   | EXCEPTION OCCURRED
+2026-09-07 15:38:56,241 | ERROR   | ============================================================
+2026-09-07 15:38:56,241 | ERROR   | Message: Unrecognized field name "a".
+2026-09-07 15:38:56,242 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\solvers\convection_diffusion_1d.m | Function: convection_diffusion_1d | Line: 154
+2026-09-07 15:38:56,242 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\problems\prac1\wiggles\c.m | Function: c | Line: 72
+2026-09-07 15:38:56,242 | ERROR   | ============================================================
+2026-09-07 15:38:56,242 | INFO    | Running case N = 1000000
+2026-09-07 15:38:56,247 | INFO    | Discretization scheme: central_scheme_1d
+2026-09-07 15:38:56,247 | INFO    | Assembling convection-diffusion system (999999 internal nodes)
+2026-09-07 15:38:56,299 | ERROR   | Case N=1000000 failed.
+2026-09-07 15:38:56,299 | ERROR   | ============================================================
+2026-09-07 15:38:56,299 | ERROR   | EXCEPTION OCCURRED
+2026-09-07 15:38:56,299 | ERROR   | ============================================================
+2026-09-07 15:38:56,299 | ERROR   | Message: Unrecognized field name "a".
+2026-09-07 15:38:56,299 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\solvers\convection_diffusion_1d.m | Function: convection_diffusion_1d | Line: 154
+2026-09-07 15:38:56,299 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\problems\prac1\wiggles\c.m | Function: c | Line: 72
+2026-09-07 15:38:56,299 | ERROR   | ============================================================
+2026-09-07 15:38:56,795 | INFO    | Solution figure saved
+2026-09-07 15:38:56,800 | ERROR   | Fatal error occurred.
+2026-09-07 15:38:56,801 | ERROR   | ============================================================
+2026-09-07 15:38:56,801 | ERROR   | EXCEPTION OCCURRED
+2026-09-07 15:38:56,801 | ERROR   | ============================================================
+2026-09-07 15:38:56,801 | ERROR   | Message: Dot indexing is not supported for variables of this type.
+2026-09-07 15:38:56,802 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\problems\prac1\wiggles\c.m | Function: c | Line: 173
+2026-09-07 15:38:56,802 | ERROR   | ============================================================
+2026-09-07 15:38:56,802 | INFO    | ============================================================
+2026-09-07 15:38:56,802 | INFO    | PRAC1_WIGGLES_EX2C FINISHED
+2026-09-07 15:38:56,802 | INFO    | ============================================================

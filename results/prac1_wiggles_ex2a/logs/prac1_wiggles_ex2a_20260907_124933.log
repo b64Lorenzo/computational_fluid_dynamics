@@ -1,0 +1,10 @@
+2026-09-07 12:49:33,514 | INFO    | ============================================================
+2026-09-07 12:49:33,514 | INFO    | STARTING PRAC1_WIGGLES_EX2A
+2026-09-07 12:49:33,514 | INFO    | ============================================================
+2026-09-07 12:49:33,514 | INFO    | Log file: results\prac1_wiggles_ex2a\logs\prac1_wiggles_ex2a_20260907_124933.log
+2026-09-07 12:49:33,518 | INFO    | Starting simulation
+2026-09-07 12:49:33,519 | INFO    | Critical cell Peclet criterion: Pe_h <= 2
+2026-09-07 12:49:33,519 | INFO    | Theoretical critical N = 250000
+2026-09-07 12:49:33,542 | INFO    | Running N = 10
+2026-09-07 12:49:33,543 | INFO    | Discretization scheme: central_scheme_1d
+2026-09-07 12:49:33,543 | INFO    | Assembling convection-diffusion system (9 internal nodes)

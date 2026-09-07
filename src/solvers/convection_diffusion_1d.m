@@ -1,46 +1,35 @@
 function [phi,A,rhs] = convection_diffusion_1d( ...
-    mesh,U,k,phi_W,phi_E,scheme,fid)
+    mesh,U,k,bc,scheme,fid)
 
 %==========================================================================
 %
 % CONVECTION_DIFFUSION_1D
 %
-% Solves the steady one-dimensional convection-diffusion equation
+% Solves:
 %
 %     U d(phi)/dx = k d²(phi)/dx²
 %
 % on a uniform or non-uniform grid.
 %
-% Boundary conditions:
+% Supports:
 %
-%     phi(0) = phi_W
-%     phi(L) = phi_E
-%
-% INPUT
-%
-% mesh.x      : grid coordinates
-% U           : convection velocity
-% k           : diffusion coefficient
-% phi_W       : west boundary value
-% phi_E       : east boundary value
-% scheme      : discretization scheme function handle
-% fid         : logger file identifier
-%
-% OUTPUT
-%
-% phi         : solution including boundary nodes
-% A           : structure containing matrix diagonals
-% rhs         : right-hand-side vector
-%
-% Example:
-%
-% [phi,A,rhs] = convection_diffusion_1d( ...
-%     mesh,U,k,phi_W,phi_E,@central_scheme,fid);
+%     - Dirichlet BCs
+%     - Neumann BCs
 %
 %==========================================================================
 
-if nargin < 7
+if nargin < 6
     fid = [];
+end
+
+if nargin < 4 || isempty(bc)
+
+    bc.W.type  = 'dirichlet';
+    bc.W.value = 0;
+
+    bc.E.type  = 'dirichlet';
+    bc.E.value = 0;
+
 end
 
 x = mesh.x(:);
@@ -54,11 +43,15 @@ if n_internal < 1
 end
 
 logger(fid,'INFO', ...
+    'Discretization scheme: %s', ...
+    func2str(scheme));
+
+logger(fid,'INFO', ...
     'Assembling convection-diffusion system (%d internal nodes)', ...
     n_internal);
 
 %--------------------------------------------------------------------------
-% Tridiagonal matrix coefficients
+% Allocate storage
 %--------------------------------------------------------------------------
 
 a_W = zeros(n_internal,1);
@@ -87,48 +80,125 @@ for I = 1:n_internal
 end
 
 %--------------------------------------------------------------------------
-% Apply Dirichlet boundary conditions
+% West boundary condition
 %--------------------------------------------------------------------------
 
-rhs(1) = rhs(1) - a_W(1)*phi_W;
+if strcmpi(bc.W.type,'dirichlet')
 
-rhs(end) = rhs(end) - a_E(end)*phi_E;
+    rhs(1) = rhs(1) - a_W(1)*bc.W.value;
+
+elseif strcmpi(bc.W.type,'neumann')
+
+    dx_W = x(2) - x(1);
+
+    a_P(1) = a_P(1) + a_W(1);
+
+    rhs(1) = rhs(1) + a_W(1)*bc.W.value*dx_W;
+
+else
+
+    error('Unknown west boundary condition type.');
+
+end
+
+%--------------------------------------------------------------------------
+% East boundary condition
+%--------------------------------------------------------------------------
+
+if strcmpi(bc.E.type,'dirichlet')
+
+    rhs(end) = rhs(end) - a_E(end)*bc.E.value;
+
+elseif strcmpi(bc.E.type,'neumann')
+
+    dx_E = x(end) - x(end-1);
+
+    a_P(end) = a_P(end) + a_E(end);
+
+    rhs(end) = rhs(end) - a_E(end)*bc.E.value*dx_E;
+
+else
+
+    error('Unknown east boundary condition type.');
+
+end
 
 %--------------------------------------------------------------------------
 % Construct TDMA diagonals
 %--------------------------------------------------------------------------
 
-lower = zeros(n_internal,1);
-diag  = a_P;
-upper = zeros(n_internal,1);
+lower_diag = zeros(n_internal,1);
+main_diag  = a_P;
+upper_diag = zeros(n_internal,1);
 
-lower(2:end) = a_W(2:end);
+lower_diag(2:end) = a_W(2:end);
 
-upper(1:end-1) = a_E(1:end-1);
+upper_diag(1:end-1) = a_E(1:end-1);
 
-A.lower = lower;
-A.diag  = diag;
-A.upper = upper;
+%--------------------------------------------------------------------------
+% Store matrix information
+%--------------------------------------------------------------------------
+
+A.a_W = a_W;
+A.a_P = a_P;
+A.a_E = a_E;
+
+A.lower_diag = lower_diag;
+A.main_diag  = main_diag;
+A.upper_diag = upper_diag;
 
 logger(fid,'INFO','Solving tridiagonal system using TDMA');
 
 %--------------------------------------------------------------------------
-% Solve system
+% Solve
 %--------------------------------------------------------------------------
 
-phi_internal = tdma(lower,diag,upper,rhs,n_internal);
+phi_internal = tdma( ...
+    lower_diag,...
+    main_diag,...
+    upper_diag,...
+    rhs,...
+    n_internal);
 
 %--------------------------------------------------------------------------
-% Assemble full solution vector
+% Assemble full solution
 %--------------------------------------------------------------------------
 
 phi = zeros(n_nodes,1);
 
-phi(1) = phi_W;
-
-phi(end) = phi_E;
-
 phi(2:end-1) = phi_internal;
+
+%--------------------------------------------------------------------------
+% Recover boundary values
+%--------------------------------------------------------------------------
+
+if strcmpi(bc.W.type,'dirichlet')
+
+    phi(1) = bc.W.value;
+
+else
+
+    dx_W = x(2) - x(1);
+
+    phi(1) = phi(2) - bc.W.value*dx_W;
+
+end
+
+if strcmpi(bc.E.type,'dirichlet')
+
+    phi(end) = bc.E.value;
+
+else
+
+    dx_E = x(end) - x(end-1);
+
+    phi(end) = phi(end-1) + bc.E.value*dx_E;
+
+end
+
+logger(fid,'INFO', ...
+    'Solution assembled (%d total nodes)', ...
+    n_nodes);
 
 logger(fid,'INFO', ...
     'Convection-diffusion solution completed');

@@ -1,0 +1,107 @@
+2026-09-07 15:17:52,027 | INFO    | ============================================================
+2026-09-07 15:17:52,028 | INFO    | STARTING PRAC1_UPWIND_BOUNDARY_LAYER_EX2B
+2026-09-07 15:17:52,028 | INFO    | ============================================================
+2026-09-07 15:17:52,028 | INFO    | Log file: results\prac1_upwind_boundary_layer_ex2b\logs\prac1_upwind_boundary_layer_ex2b_20260907_151752.log
+2026-09-07 15:17:52,028 | INFO    | Starting simulation
+2026-09-07 15:17:52,028 | INFO    | L = 10.000
+2026-09-07 15:17:52,029 | INFO    | U = 50.000
+2026-09-07 15:17:52,030 | INFO    | k = 1.000000e-03
+2026-09-07 15:17:52,030 | INFO    | Running case N = 100
+2026-09-07 15:17:52,030 | INFO    | Discretization scheme: upwind_scheme_1d
+2026-09-07 15:17:52,031 | INFO    | Assembling convection-diffusion system (99 internal nodes)
+2026-09-07 15:17:52,031 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 15:17:52,031 | INFO    | Solution assembled (101 total nodes)
+2026-09-07 15:17:52,031 | INFO    | Convection-diffusion solution completed
+2026-09-07 15:17:52,033 | INFO    | N=100 | Error=1.999996e+01 | delta_num=0.000000e+00 | delta_theory=5.002000e-02
+2026-09-07 15:17:52,033 | INFO    | Running case N = 250
+2026-09-07 15:17:52,034 | INFO    | Discretization scheme: upwind_scheme_1d
+2026-09-07 15:17:52,034 | INFO    | Assembling convection-diffusion system (249 internal nodes)
+2026-09-07 15:17:52,034 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 15:17:52,034 | INFO    | Solution assembled (251 total nodes)
+2026-09-07 15:17:52,034 | INFO    | Convection-diffusion solution completed
+2026-09-07 15:17:52,035 | INFO    | N=250 | Error=1.999996e+01 | delta_num=0.000000e+00 | delta_theory=2.002000e-02
+2026-09-07 15:17:52,035 | INFO    | Running case N = 500
+2026-09-07 15:17:52,035 | INFO    | Discretization scheme: upwind_scheme_1d
+2026-09-07 15:17:52,035 | INFO    | Assembling convection-diffusion system (499 internal nodes)
+2026-09-07 15:17:52,036 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 15:17:52,036 | INFO    | Solution assembled (501 total nodes)
+2026-09-07 15:17:52,036 | INFO    | Convection-diffusion solution completed
+2026-09-07 15:17:52,036 | INFO    | N=500 | Error=1.999996e+01 | delta_num=0.000000e+00 | delta_theory=1.002000e-02
+2026-09-07 15:17:52,037 | INFO    | Running case N = 1000
+2026-09-07 15:17:52,037 | INFO    | Discretization scheme: upwind_scheme_1d
+2026-09-07 15:17:52,037 | INFO    | Assembling convection-diffusion system (999 internal nodes)
+2026-09-07 15:17:52,037 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 15:17:52,037 | INFO    | Solution assembled (1001 total nodes)
+2026-09-07 15:17:52,037 | INFO    | Convection-diffusion solution completed
+2026-09-07 15:17:52,037 | INFO    | N=1000 | Error=1.999996e+01 | delta_num=0.000000e+00 | delta_theory=5.020000e-03
+2026-09-07 15:17:52,038 | INFO    | Running case N = 2500
+2026-09-07 15:17:52,038 | INFO    | Discretization scheme: upwind_scheme_1d
+2026-09-07 15:17:52,038 | INFO    | Assembling convection-diffusion system (2499 internal nodes)
+2026-09-07 15:17:52,039 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 15:17:52,039 | INFO    | Solution assembled (2501 total nodes)
+2026-09-07 15:17:52,039 | INFO    | Convection-diffusion solution completed
+2026-09-07 15:17:52,041 | INFO    | N=2500 | Error=1.999996e+01 | delta_num=0.000000e+00 | delta_theory=2.020000e-03
+2026-09-07 15:17:52,041 | INFO    | Running case N = 5000
+2026-09-07 15:17:52,041 | INFO    | Discretization scheme: upwind_scheme_1d
+2026-09-07 15:17:52,041 | INFO    | Assembling convection-diffusion system (4999 internal nodes)
+2026-09-07 15:17:52,042 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 15:17:52,042 | INFO    | Solution assembled (5001 total nodes)
+2026-09-07 15:17:52,042 | INFO    | Convection-diffusion solution completed
+2026-09-07 15:17:52,042 | INFO    | N=5000 | Error=1.999996e+01 | delta_num=0.000000e+00 | delta_theory=1.020000e-03
+2026-09-07 15:17:52,042 | INFO    | Running case N = 10000
+2026-09-07 15:17:52,043 | INFO    | Discretization scheme: upwind_scheme_1d
+2026-09-07 15:17:52,043 | INFO    | Assembling convection-diffusion system (9999 internal nodes)
+2026-09-07 15:17:52,043 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 15:17:52,044 | INFO    | Solution assembled (10001 total nodes)
+2026-09-07 15:17:52,044 | INFO    | Convection-diffusion solution completed
+2026-09-07 15:17:52,044 | INFO    | N=10000 | Error=1.999996e+01 | delta_num=0.000000e+00 | delta_theory=5.200000e-04
+2026-09-07 15:17:52,044 | INFO    | Running case N = 25000
+2026-09-07 15:17:52,044 | INFO    | Discretization scheme: upwind_scheme_1d
+2026-09-07 15:17:52,044 | INFO    | Assembling convection-diffusion system (24999 internal nodes)
+2026-09-07 15:17:52,046 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 15:17:52,047 | INFO    | Solution assembled (25001 total nodes)
+2026-09-07 15:17:52,047 | INFO    | Convection-diffusion solution completed
+2026-09-07 15:17:52,047 | INFO    | N=25000 | Error=1.999996e+01 | delta_num=0.000000e+00 | delta_theory=2.200000e-04
+2026-09-07 15:17:52,048 | INFO    | Running case N = 50000
+2026-09-07 15:17:52,048 | INFO    | Discretization scheme: upwind_scheme_1d
+2026-09-07 15:17:52,048 | INFO    | Assembling convection-diffusion system (49999 internal nodes)
+2026-09-07 15:17:52,049 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 15:17:52,049 | INFO    | Solution assembled (50001 total nodes)
+2026-09-07 15:17:52,049 | INFO    | Convection-diffusion solution completed
+2026-09-07 15:17:52,049 | INFO    | N=50000 | Error=1.999996e+01 | delta_num=0.000000e+00 | delta_theory=1.200000e-04
+2026-09-07 15:17:52,049 | INFO    | Running case N = 100000
+2026-09-07 15:17:52,049 | INFO    | Discretization scheme: upwind_scheme_1d
+2026-09-07 15:17:52,049 | INFO    | Assembling convection-diffusion system (99999 internal nodes)
+2026-09-07 15:17:52,049 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 15:17:52,049 | INFO    | Solution assembled (100001 total nodes)
+2026-09-07 15:17:52,049 | INFO    | Convection-diffusion solution completed
+2026-09-07 15:17:52,049 | INFO    | N=100000 | Error=1.999996e+01 | delta_num=0.000000e+00 | delta_theory=7.000000e-05
+2026-09-07 15:17:52,049 | INFO    | Running case N = 250000
+2026-09-07 15:17:52,064 | INFO    | Discretization scheme: upwind_scheme_1d
+2026-09-07 15:17:52,064 | INFO    | Assembling convection-diffusion system (249999 internal nodes)
+2026-09-07 15:17:52,080 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 15:17:52,080 | INFO    | Solution assembled (250001 total nodes)
+2026-09-07 15:17:52,080 | INFO    | Convection-diffusion solution completed
+2026-09-07 15:17:52,092 | INFO    | N=250000 | Error=1.999996e+01 | delta_num=0.000000e+00 | delta_theory=4.000000e-05
+2026-09-07 15:17:52,092 | INFO    | Running case N = 500000
+2026-09-07 15:17:52,096 | INFO    | Discretization scheme: upwind_scheme_1d
+2026-09-07 15:17:52,096 | INFO    | Assembling convection-diffusion system (499999 internal nodes)
+2026-09-07 15:17:52,130 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 15:17:52,146 | INFO    | Solution assembled (500001 total nodes)
+2026-09-07 15:17:52,147 | INFO    | Convection-diffusion solution completed
+2026-09-07 15:17:52,152 | INFO    | N=500000 | Error=1.999996e+01 | delta_num=2.885390e-05 | delta_theory=3.000000e-05
+2026-09-07 15:17:52,152 | INFO    | Running case N = 1000000
+2026-09-07 15:17:52,160 | INFO    | Discretization scheme: upwind_scheme_1d
+2026-09-07 15:17:52,161 | INFO    | Assembling convection-diffusion system (999999 internal nodes)
+2026-09-07 15:17:52,226 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 15:17:52,258 | INFO    | Solution assembled (1000001 total nodes)
+2026-09-07 15:17:52,258 | INFO    | Convection-diffusion solution completed
+2026-09-07 15:17:52,258 | INFO    | N=1000000 | Error=1.999996e+01 | delta_num=1.442695e-05 | delta_theory=2.500000e-05
+2026-09-07 15:17:52,786 | INFO    | Boundary-layer figure saved
+2026-09-07 15:17:52,787 | INFO    | Observed order = 0.000
+2026-09-07 15:17:53,170 | INFO    | Convergence figure saved
+2026-09-07 15:17:53,175 | INFO    | Data saved
+2026-09-07 15:17:53,191 | INFO    | Simulation completed successfully
+2026-09-07 15:17:53,191 | INFO    | ============================================================
+2026-09-07 15:17:53,191 | INFO    | PRAC1_UPWIND_BOUNDARY_LAYER_EX2B FINISHED
+2026-09-07 15:17:53,192 | INFO    | ============================================================

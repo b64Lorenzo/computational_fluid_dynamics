@@ -1,0 +1,23 @@
+2026-09-07 12:10:31,602 | INFO  | ================================================================================
+2026-09-07 12:10:31,606 | INFO  | STARTING CENTRAL1D_TEST
+2026-09-07 12:10:31,606 | INFO  | ================================================================================
+2026-09-07 12:10:31,607 | INFO  | Starting simulation
+2026-09-07 12:10:31,607 | INFO  | L = 10.000
+2026-09-07 12:10:31,607 | INFO  | U = 50.000
+2026-09-07 12:10:31,607 | INFO  | k = 1.000000e-03
+2026-09-07 12:10:31,607 | INFO  | phi_W = 0.000
+2026-09-07 12:10:31,607 | INFO  | phi_E = 20.000
+2026-09-07 12:10:31,608 | INFO  | N = 100
+2026-09-07 12:10:31,608 | INFO  | Scheme = Central
+2026-09-07 12:10:31,608 | INFO  | Creating uniform mesh
+2026-09-07 12:10:31,611 | INFO  | Solving convection-diffusion equation
+2026-09-07 12:10:31,612 | INFO  | Assembling convection-diffusion system (99 internal nodes)
+2026-09-07 12:10:31,616 | INFO  | Solving tridiagonal system using TDMA
+2026-09-07 12:10:31,617 | INFO  | Convection-diffusion solution completed
+2026-09-07 12:10:31,618 | INFO  | Generating plot
+2026-09-07 12:10:32,362 | INFO  | Figure saved
+2026-09-07 12:10:32,365 | INFO  | Solution saved
+2026-09-07 12:10:32,365 | INFO  | Simulation completed successfully
+2026-09-07 12:10:32,366 | INFO  | ================================================================================
+2026-09-07 12:10:32,366 | INFO  | CENTRAL1D_TEST FINISHED
+2026-09-07 12:10:32,366 | INFO  | ================================================================================

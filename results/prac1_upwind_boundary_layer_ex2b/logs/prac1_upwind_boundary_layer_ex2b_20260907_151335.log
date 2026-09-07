@@ -1,0 +1,22 @@
+2026-09-07 15:13:35,394 | INFO    | ============================================================
+2026-09-07 15:13:35,395 | INFO    | STARTING PRAC1_UPWIND_BOUNDARY_LAYER_EX2B
+2026-09-07 15:13:35,395 | INFO    | ============================================================
+2026-09-07 15:13:35,395 | INFO    | Log file: results\prac1_upwind_boundary_layer_ex2b\logs\prac1_upwind_boundary_layer_ex2b_20260907_151335.log
+2026-09-07 15:13:35,396 | INFO    | Starting simulation
+2026-09-07 15:13:35,396 | INFO    | Running case N = 100
+2026-09-07 15:13:35,397 | INFO    | Discretization scheme: upwind_scheme_1d
+2026-09-07 15:13:35,397 | INFO    | Assembling convection-diffusion system (99 internal nodes)
+2026-09-07 15:13:35,397 | INFO    | Solving tridiagonal system using TDMA
+2026-09-07 15:13:35,397 | INFO    | Solution assembled (101 total nodes)
+2026-09-07 15:13:35,397 | INFO    | Convection-diffusion solution completed
+2026-09-07 15:13:35,398 | ERROR   | Fatal error occurred.
+2026-09-07 15:13:35,398 | ERROR   | ============================================================
+2026-09-07 15:13:35,398 | ERROR   | EXCEPTION OCCURRED
+2026-09-07 15:13:35,398 | ERROR   | ============================================================
+2026-09-07 15:13:35,399 | ERROR   | Message: Sample points must be unique.
+2026-09-07 15:13:35,399 | ERROR   | File: C:\Program Files\MATLAB\R2025b\toolbox\matlab\polyfun\interp1.m | Function: interp1 | Line: 188
+2026-09-07 15:13:35,399 | ERROR   | File: C:\Users\zambe\OneDrive\Desktop\CDF\src\problems\prac1\wiggles\b.m | Function: b | Line: 83
+2026-09-07 15:13:35,399 | ERROR   | ============================================================
+2026-09-07 15:13:35,400 | INFO    | ============================================================
+2026-09-07 15:13:35,400 | INFO    | PRAC1_UPWIND_BOUNDARY_LAYER_EX2B FINISHED
+2026-09-07 15:13:35,400 | INFO    | ============================================================

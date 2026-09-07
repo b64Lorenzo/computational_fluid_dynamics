@@ -21,16 +21,21 @@ L = 10.0;
 U = 50.0;
 k = 1e-3;
 
-phi_left = 0.0;
-phi_right = 20.0;
+bc.W.type = 'dirichlet';
+bc.W.value = 0.0;
+
+bc.E.type = 'dirichlet';
+bc.E.value = 20.0;
 
 N = 100;
 
 logger(fid,'INFO','L = %.3f',L);
 logger(fid,'INFO','U = %.3f',U);
 logger(fid,'INFO','k = %.6e',k);
-logger(fid,'INFO','phi_left = %.3f',phi_left);
-logger(fid,'INFO','phi_right = %.3f',phi_right);
+logger(fid,'INFO', 'WEST Bc type: ', bc.W.type);
+logger(fid,'INFO','West BC  : %s %.3f',bc.W.type,bc.W.value);
+logger(fid,'INFO', 'East Bc type: ', bc.E.type);
+logger(fid,'INFO','East BC  : %s %.3f',bc.E.type,bc.E.value);
 logger(fid,'INFO','N = %d',N);
 logger(fid,'INFO','Scheme = Upwind');
 
@@ -38,14 +43,13 @@ logger(fid,'INFO','Scheme = Upwind');
 
 logger(fid,'INFO','Creating uniform mesh');
 
-mesh = create_uniform_mesh(L,N);
+mesh = create_uniform_mesh_1d(L,N);
 
 %% Solve
 
 logger(fid,'INFO','Solving convection-diffusion equation');
 
-[phi,A,rhs] = convection_diffusion_1d(mesh,U,k,phi_left,phi_right,@upwind_scheme);
-
+[phi,A,rhs] = convection_diffusion_1d(mesh,U,k,bc,@upwind_scheme_1d,fid);
 %% Plot
 
 logger(fid,'INFO','Generating plot');
