@@ -36,8 +36,8 @@ The `tests` directory contains scripts used to verify the different methods.
 1. Open the MATLAB project.
 2. Run `startup.m` to add the source directories to the MATLAB path.
 3. Navigate to the desired problem in `src/problems`.
-4. Execute the corresponding `main.m` script.
-5. Results are written to the `results` directory.
+4. Execute the corresponding `.m` script.
+5. Results are written to the `results` directory with the logger, data files, and figures.
 
 ## Author
 

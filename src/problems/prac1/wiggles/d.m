@@ -1,5 +1,5 @@
 %% =========================================================================
-% CFD - Exercise 2(c)
+% CFD - Exercise 2(d)
 % =========================================================================
 
 clear
@@ -8,7 +8,7 @@ close all
 
 %% Logging
 
-problem_name = 'prac1_wiggles_ex2c';
+problem_name = 'prac1_wiggles_ex2d';
 
 fid = logger_init(problem_name);
 
@@ -26,7 +26,7 @@ try
     bc.W.value = 0.0;
 
     bc.E.type  = 'neumann';
-    bc.E.value = 1e-3;
+    bc.E.value = 20;
 
     %% Theoretical limit
 
