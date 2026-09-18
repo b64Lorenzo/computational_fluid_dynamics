@@ -1,0 +1,64 @@
+2026-09-18 10:43:03,079 | INFO    | ============================================================
+2026-09-18 10:43:03,080 | INFO    | STARTING B3_PECLET_STUDY
+2026-09-18 10:43:03,081 | INFO    | ============================================================
+2026-09-18 10:43:03,081 | INFO    | Log file: results\b3_peclet_study\logs\b3_peclet_study_20260918_104303.log
+2026-09-18 10:43:03,081 | INFO    | Starting simulation
+2026-09-18 10:43:03,082 | INFO    | L = 1.000
+2026-09-18 10:43:03,083 | INFO    | U = 5.000
+2026-09-18 10:43:03,083 | INFO    | k = 1.000000e-02
+2026-09-18 10:43:03,084 | INFO    | Running 5 grid cases
+2026-09-18 10:43:03,140 | INFO    | ------------------------------------------------
+2026-09-18 10:43:03,141 | INFO    | Case 1/5
+2026-09-18 10:43:03,141 | INFO    | N = 5
+2026-09-18 10:43:03,145 | INFO    | h = 2.000000e-01
+2026-09-18 10:43:03,145 | INFO    | Mesh Peclet number = 100.000000
+2026-09-18 10:43:03,147 | INFO    | Discretization scheme: b3_scheme_1d
+2026-09-18 10:43:03,147 | INFO    | Assembling convection-diffusion system (4 internal nodes)
+2026-09-18 10:43:03,152 | INFO    | Pentadiagonal stencil detected -> using PDMA
+2026-09-18 10:43:03,154 | INFO    | Solution assembled (6 total nodes)
+2026-09-18 10:43:03,155 | INFO    | Convection-diffusion solution completed
+2026-09-18 10:43:03,166 | INFO    | ------------------------------------------------
+2026-09-18 10:43:03,166 | INFO    | Case 2/5
+2026-09-18 10:43:03,166 | INFO    | N = 10
+2026-09-18 10:43:03,167 | INFO    | h = 1.000000e-01
+2026-09-18 10:43:03,168 | INFO    | Mesh Peclet number = 50.000000
+2026-09-18 10:43:03,168 | INFO    | Discretization scheme: b3_scheme_1d
+2026-09-18 10:43:03,168 | INFO    | Assembling convection-diffusion system (9 internal nodes)
+2026-09-18 10:43:03,168 | INFO    | Pentadiagonal stencil detected -> using PDMA
+2026-09-18 10:43:03,169 | INFO    | Solution assembled (11 total nodes)
+2026-09-18 10:43:03,170 | INFO    | Convection-diffusion solution completed
+2026-09-18 10:43:03,176 | INFO    | ------------------------------------------------
+2026-09-18 10:43:03,176 | INFO    | Case 3/5
+2026-09-18 10:43:03,176 | INFO    | N = 20
+2026-09-18 10:43:03,176 | INFO    | h = 5.000000e-02
+2026-09-18 10:43:03,177 | INFO    | Mesh Peclet number = 25.000000
+2026-09-18 10:43:03,177 | INFO    | Discretization scheme: b3_scheme_1d
+2026-09-18 10:43:03,177 | INFO    | Assembling convection-diffusion system (19 internal nodes)
+2026-09-18 10:43:03,177 | INFO    | Pentadiagonal stencil detected -> using PDMA
+2026-09-18 10:43:03,178 | INFO    | Solution assembled (21 total nodes)
+2026-09-18 10:43:03,178 | INFO    | Convection-diffusion solution completed
+2026-09-18 10:43:03,188 | INFO    | ------------------------------------------------
+2026-09-18 10:43:03,189 | INFO    | Case 4/5
+2026-09-18 10:43:03,189 | INFO    | N = 50
+2026-09-18 10:43:03,189 | INFO    | h = 2.000000e-02
+2026-09-18 10:43:03,189 | INFO    | Mesh Peclet number = 10.000000
+2026-09-18 10:43:03,190 | INFO    | Discretization scheme: b3_scheme_1d
+2026-09-18 10:43:03,190 | INFO    | Assembling convection-diffusion system (49 internal nodes)
+2026-09-18 10:43:03,191 | INFO    | Pentadiagonal stencil detected -> using PDMA
+2026-09-18 10:43:03,196 | INFO    | Solution assembled (51 total nodes)
+2026-09-18 10:43:03,196 | INFO    | Convection-diffusion solution completed
+2026-09-18 10:43:03,203 | INFO    | ------------------------------------------------
+2026-09-18 10:43:03,203 | INFO    | Case 5/5
+2026-09-18 10:43:03,204 | INFO    | N = 100
+2026-09-18 10:43:03,205 | INFO    | h = 1.000000e-02
+2026-09-18 10:43:03,205 | INFO    | Mesh Peclet number = 5.000000
+2026-09-18 10:43:03,206 | INFO    | Discretization scheme: b3_scheme_1d
+2026-09-18 10:43:03,206 | INFO    | Assembling convection-diffusion system (99 internal nodes)
+2026-09-18 10:43:03,206 | INFO    | Pentadiagonal stencil detected -> using PDMA
+2026-09-18 10:43:03,207 | INFO    | Solution assembled (101 total nodes)
+2026-09-18 10:43:03,207 | INFO    | Convection-diffusion solution completed
+2026-09-18 10:43:05,987 | INFO    | Figure saved
+2026-09-18 10:43:05,990 | INFO    | Study completed successfully
+2026-09-18 10:43:05,990 | INFO    | ============================================================
+2026-09-18 10:43:05,991 | INFO    | B3_PECLET_STUDY FINISHED
+2026-09-18 10:43:05,991 | INFO    | ============================================================

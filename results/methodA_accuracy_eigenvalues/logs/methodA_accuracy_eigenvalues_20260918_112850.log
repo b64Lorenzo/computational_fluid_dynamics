@@ -1,0 +1,36 @@
+2026-09-18 11:28:50,073 | INFO    | ============================================================
+2026-09-18 11:28:50,074 | INFO    | STARTING METHODA_ACCURACY_EIGENVALUES
+2026-09-18 11:28:50,074 | INFO    | ============================================================
+2026-09-18 11:28:50,074 | INFO    | Log file: results\methodA_accuracy_eigenvalues\logs\methodA_accuracy_eigenvalues_20260918_112850.log
+2026-09-18 11:28:50,075 | INFO    | Starting Method A study
+2026-09-18 11:28:50,105 | INFO    | ================================================
+2026-09-18 11:28:50,105 | INFO    | Stretch ratio h+/h- = 0.95
+2026-09-18 11:28:50,105 | INFO    | Discretization scheme: convection_methodA_1d
+2026-09-18 11:28:50,105 | INFO    | Assembling convection-diffusion system (49 internal nodes)
+2026-09-18 11:28:50,115 | INFO    | Tridiagonal stencil detected -> using TDMA
+2026-09-18 11:28:50,115 | INFO    | Solution assembled (51 total nodes)
+2026-09-18 11:28:50,115 | INFO    | Convection-diffusion solution completed
+2026-09-18 11:28:50,115 | INFO    | L2 error = 2.244571e-02
+2026-09-18 11:28:50,115 | INFO    | Minimum Re(lambda) = 4.880767e+00
+2026-09-18 11:28:50,126 | INFO    | ================================================
+2026-09-18 11:28:50,126 | INFO    | Stretch ratio h+/h- = 0.70
+2026-09-18 11:28:50,126 | INFO    | Discretization scheme: convection_methodA_1d
+2026-09-18 11:28:50,126 | INFO    | Assembling convection-diffusion system (49 internal nodes)
+2026-09-18 11:28:50,126 | INFO    | Tridiagonal stencil detected -> using TDMA
+2026-09-18 11:28:50,126 | INFO    | Solution assembled (51 total nodes)
+2026-09-18 11:28:50,126 | INFO    | Convection-diffusion solution completed
+2026-09-18 11:28:50,126 | INFO    | L2 error = 1.751571e+00
+2026-09-18 11:28:50,126 | INFO    | Minimum Re(lambda) = -1.717186e+00
+2026-09-18 11:28:50,136 | INFO    | ================================================
+2026-09-18 11:28:50,136 | INFO    | Stretch ratio h+/h- = 0.50
+2026-09-18 11:28:50,136 | INFO    | Discretization scheme: convection_methodA_1d
+2026-09-18 11:28:50,136 | INFO    | Assembling convection-diffusion system (49 internal nodes)
+2026-09-18 11:28:50,146 | INFO    | Tridiagonal stencil detected -> using TDMA
+2026-09-18 11:28:50,146 | INFO    | Solution assembled (51 total nodes)
+2026-09-18 11:28:50,146 | INFO    | Convection-diffusion solution completed
+2026-09-18 11:28:50,146 | INFO    | L2 error = 2.552392e+00
+2026-09-18 11:28:50,146 | INFO    | Minimum Re(lambda) = -2.008814e+01
+2026-09-18 11:28:51,073 | INFO    | Study completed successfully
+2026-09-18 11:28:51,074 | INFO    | ============================================================
+2026-09-18 11:28:51,074 | INFO    | METHODA_ACCURACY_EIGENVALUES FINISHED
+2026-09-18 11:28:51,074 | INFO    | ============================================================

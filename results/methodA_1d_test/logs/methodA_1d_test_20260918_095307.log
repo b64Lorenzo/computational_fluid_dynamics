@@ -1,0 +1,23 @@
+2026-09-18 09:53:07,950 | INFO    | ============================================================
+2026-09-18 09:53:07,950 | INFO    | STARTING METHODA_1D_TEST
+2026-09-18 09:53:07,950 | INFO    | ============================================================
+2026-09-18 09:53:07,950 | INFO    | Log file: results\methodA_1d_test\logs\methodA_1d_test_20260918_095307.log
+2026-09-18 09:53:07,952 | INFO    | Starting simulation
+2026-09-18 09:53:07,952 | INFO    | L = 1.000
+2026-09-18 09:53:07,952 | INFO    | U = 1.000
+2026-09-18 09:53:07,952 | INFO    | k = 2.000000e-03
+2026-09-18 09:53:07,978 | INFO    | N = 10000
+2026-09-18 09:53:07,978 | INFO    | Scheme = Method A
+2026-09-18 09:53:07,980 | INFO    | Creating non-uniform mesh
+2026-09-18 09:53:07,980 | INFO    | Solving convection-diffusion equation
+2026-09-18 09:53:07,980 | INFO    | Discretization scheme: convection_methodA_1d
+2026-09-18 09:53:07,980 | INFO    | Assembling convection-diffusion system (9 internal nodes)
+2026-09-18 09:53:07,989 | INFO    | Tridiagonal stencil detected -> using TDMA
+2026-09-18 09:53:07,990 | INFO    | Solution assembled (11 total nodes)
+2026-09-18 09:53:07,990 | INFO    | Convection-diffusion solution completed
+2026-09-18 09:53:07,992 | INFO    | Generating plots
+2026-09-18 09:53:09,949 | INFO    | Solution saved
+2026-09-18 09:53:09,952 | INFO    | Simulation completed successfully
+2026-09-18 09:53:09,952 | INFO    | ============================================================
+2026-09-18 09:53:09,952 | INFO    | METHODA_1D_TEST FINISHED
+2026-09-18 09:53:09,954 | INFO    | ============================================================

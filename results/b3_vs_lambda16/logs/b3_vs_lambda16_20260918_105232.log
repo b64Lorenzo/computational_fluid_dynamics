@@ -1,0 +1,45 @@
+2026-09-18 10:52:32,633 | INFO    | ============================================================
+2026-09-18 10:52:32,634 | INFO    | STARTING B3_VS_LAMBDA16
+2026-09-18 10:52:32,634 | INFO    | ============================================================
+2026-09-18 10:52:32,634 | INFO    | Log file: results\b3_vs_lambda16\logs\b3_vs_lambda16_20260918_105232.log
+2026-09-18 10:52:32,635 | INFO    | Starting simulation
+2026-09-18 10:52:32,635 | INFO    | L = 1.000
+2026-09-18 10:52:32,635 | INFO    | U = 5.000
+2026-09-18 10:52:32,635 | INFO    | k = 1.000000e-06
+2026-09-18 10:52:32,636 | INFO    | Case N=25, P=200000
+2026-09-18 10:52:32,638 | INFO    | Discretization scheme: b3_scheme_1d
+2026-09-18 10:52:32,638 | INFO    | Assembling convection-diffusion system (24 internal nodes)
+2026-09-18 10:52:32,640 | INFO    | Pentadiagonal stencil detected -> using PDMA
+2026-09-18 10:52:32,641 | INFO    | Solution assembled (26 total nodes)
+2026-09-18 10:52:32,642 | INFO    | Convection-diffusion solution completed
+2026-09-18 10:52:32,643 | INFO    | Discretization scheme: @(mesh,U,k,i)lambda_scheme_1d(mesh,U,k,i,1/6)
+2026-09-18 10:52:32,643 | INFO    | Assembling convection-diffusion system (24 internal nodes)
+2026-09-18 10:52:32,646 | INFO    | Pentadiagonal stencil detected -> using PDMA
+2026-09-18 10:52:32,646 | INFO    | Solution assembled (26 total nodes)
+2026-09-18 10:52:32,646 | INFO    | Convection-diffusion solution completed
+2026-09-18 10:52:33,378 | INFO    | Case N=50, P=100000
+2026-09-18 10:52:33,379 | INFO    | Discretization scheme: b3_scheme_1d
+2026-09-18 10:52:33,380 | INFO    | Assembling convection-diffusion system (49 internal nodes)
+2026-09-18 10:52:33,380 | INFO    | Pentadiagonal stencil detected -> using PDMA
+2026-09-18 10:52:33,380 | INFO    | Solution assembled (51 total nodes)
+2026-09-18 10:52:33,381 | INFO    | Convection-diffusion solution completed
+2026-09-18 10:52:33,381 | INFO    | Discretization scheme: @(mesh,U,k,i)lambda_scheme_1d(mesh,U,k,i,1/6)
+2026-09-18 10:52:33,381 | INFO    | Assembling convection-diffusion system (49 internal nodes)
+2026-09-18 10:52:33,382 | INFO    | Pentadiagonal stencil detected -> using PDMA
+2026-09-18 10:52:33,382 | INFO    | Solution assembled (51 total nodes)
+2026-09-18 10:52:33,382 | INFO    | Convection-diffusion solution completed
+2026-09-18 10:52:33,789 | INFO    | Case N=100, P=50000
+2026-09-18 10:52:33,789 | INFO    | Discretization scheme: b3_scheme_1d
+2026-09-18 10:52:33,789 | INFO    | Assembling convection-diffusion system (99 internal nodes)
+2026-09-18 10:52:33,790 | INFO    | Pentadiagonal stencil detected -> using PDMA
+2026-09-18 10:52:33,790 | INFO    | Solution assembled (101 total nodes)
+2026-09-18 10:52:33,790 | INFO    | Convection-diffusion solution completed
+2026-09-18 10:52:33,790 | INFO    | Discretization scheme: @(mesh,U,k,i)lambda_scheme_1d(mesh,U,k,i,1/6)
+2026-09-18 10:52:33,790 | INFO    | Assembling convection-diffusion system (99 internal nodes)
+2026-09-18 10:52:33,790 | INFO    | Pentadiagonal stencil detected -> using PDMA
+2026-09-18 10:52:33,790 | INFO    | Solution assembled (101 total nodes)
+2026-09-18 10:52:33,791 | INFO    | Convection-diffusion solution completed
+2026-09-18 10:52:34,363 | INFO    | Simulation completed
+2026-09-18 10:52:34,364 | INFO    | ============================================================
+2026-09-18 10:52:34,364 | INFO    | B3_VS_LAMBDA16 FINISHED
+2026-09-18 10:52:34,364 | INFO    | ============================================================

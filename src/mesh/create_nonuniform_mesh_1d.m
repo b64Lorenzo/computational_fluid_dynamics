@@ -1,4 +1,4 @@
-function mesh = create_nonuniform_mesh(L,N,beta)
+function mesh = create_nonuniform_mesh_1d(L,N,beta)
 
 eta = linspace(0,1,N+1)';
 
