@@ -1,0 +1,21 @@
+2026-10-02 12:02:39,289 | INFO    | ============================================================
+2026-10-02 12:02:39,297 | INFO    | STARTING TRANSIENT_TO_STEADY_VALIDATION
+2026-10-02 12:02:39,302 | INFO    | ============================================================
+2026-10-02 12:02:39,307 | INFO    | Log file: results\transient_to_steady_validation\logs\transient_to_steady_validation_20261002_120239.log
+2026-10-02 12:02:39,336 | INFO    | Starting simulation
+2026-10-02 12:02:39,400 | INFO    | Computing steady solution
+2026-10-02 12:02:39,446 | INFO    | Discretization scheme: upwind_scheme_1d
+2026-10-02 12:02:39,448 | INFO    | Assembling convection-diffusion system (99 internal nodes)
+2026-10-02 12:02:39,523 | INFO    | Tridiagonal stencil detected -> using TDMA
+2026-10-02 12:02:39,529 | INFO    | Solution assembled (101 total nodes)
+2026-10-02 12:02:39,530 | INFO    | Convection-diffusion solution completed
+2026-10-02 12:02:39,530 | INFO    | Running explicit
+2026-10-02 12:02:39,599 | INFO    | Running implicit
+2026-10-02 12:03:07,397 | INFO    | Explicit Final Error = 5.496883e-15
+2026-10-02 12:03:07,402 | INFO    | Implicit Final Error = 6.231525e-15
+2026-10-02 12:03:07,403 | INFO    | Explicit Final Residual = 2.749168e-12
+2026-10-02 12:03:07,404 | INFO    | Implicit Final Residual = 3.116738e-12
+2026-10-02 12:03:07,405 | INFO    | Simulation completed
+2026-10-02 12:03:07,429 | INFO    | ============================================================
+2026-10-02 12:03:07,434 | INFO    | TRANSIENT_TO_STEADY_VALIDATION FINISHED
+2026-10-02 12:03:07,434 | INFO    | ============================================================

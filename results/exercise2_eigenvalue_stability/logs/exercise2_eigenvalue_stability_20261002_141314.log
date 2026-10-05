@@ -1,0 +1,14 @@
+2026-10-02 14:13:14,331 | INFO    | ============================================================
+2026-10-02 14:13:14,335 | INFO    | STARTING EXERCISE2_EIGENVALUE_STABILITY
+2026-10-02 14:13:14,337 | INFO    | ============================================================
+2026-10-02 14:13:14,338 | INFO    | Log file: results\exercise2_eigenvalue_stability\logs\exercise2_eigenvalue_stability_20261002_141314.log
+2026-10-02 14:13:14,341 | INFO    | Starting Exercise 2
+2026-10-02 14:13:14,360 | INFO    | L = 1.0000
+2026-10-02 14:13:14,366 | INFO    | U = 1.0000
+2026-10-02 14:13:14,368 | INFO    | k = 1.000000e-03
+2026-10-02 14:13:14,370 | INFO    | N = 101
+2026-10-02 14:13:14,373 | INFO    | Stretch ratio = 0.9500
+2026-10-02 14:13:17,585 | INFO    | Largest Re(lambda) uniform = 2.000000e+01
+2026-10-02 14:13:17,587 | INFO    | Largest Re(lambda) stretched = 3.055693e+04
+2026-10-02 14:13:17,852 | INFO    | dt_max uniform  = 
+2026-10-02 14:13:17,857 | INFO    | dt_max stretch  = 

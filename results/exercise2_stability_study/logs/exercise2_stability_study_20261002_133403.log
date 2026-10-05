@@ -1,0 +1,10 @@
+2026-10-02 13:34:03,874 | INFO    | ============================================================
+2026-10-02 13:34:03,875 | INFO    | STARTING EXERCISE2_STABILITY_STUDY
+2026-10-02 13:34:03,875 | INFO    | ============================================================
+2026-10-02 13:34:03,876 | INFO    | Log file: results\exercise2_stability_study\logs\exercise2_stability_study_20261002_133403.log
+2026-10-02 13:34:03,877 | INFO    | Starting Exercise 2
+2026-10-02 13:34:04,841 | INFO    | Discretization scheme: convection_methodA_1d
+2026-10-02 13:34:04,866 | INFO    | Assembling convection-diffusion system (99 internal nodes)
+2026-10-02 13:34:04,898 | INFO    | Tridiagonal stencil detected -> using TDMA
+2026-10-02 13:34:04,967 | INFO    | Solution assembled (101 total nodes)
+2026-10-02 13:34:04,970 | INFO    | Convection-diffusion solution completed
