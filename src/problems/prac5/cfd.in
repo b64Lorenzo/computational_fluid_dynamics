@@ -1,0 +1,94 @@
+***** tank geometry *************************************************
+Xmin   Xmax      Ymin   Ymax 
+0.0    50.0       0.0    1.0  
+
+***** grid definition ***********************************************
+iMaxUs   jMaxUs      cx      cy         xpos   ypos
+50      19          0       0     0.5    0.5     
+
+***** liquid properties *********************************************
+Nu   
+0.001
+
+***** boundary conditions and inflow characteristics ****************
+left   right   top   bottom      UIn   VIn    
+8      7       2     2           1.0   0.0   
+
+***** discretization ***********************************************
+Alpha   Divuv 
+0.0     1
+
+***** poisson iteration parameters ************* 
+Epsi     ItMax   StrtP
+1.0e-4   100     1
+
+***** time step  *********************************
+TFin   DelT    CFLMax  
+50     0.025   0.1  
+
+***** print/plot control ********************************************
+PrtDt  uvp
+1      1
+
+
+
+---------------------------------------------------------------------
+***** E X P L A N A T I O N ************* E X P L A N A T I O N *****
+---------------------------------------------------------------------
+
+**TANK GEOMETRY**
+Xmin, Xmax, Ymin, Ymax : position of boundaries of computational domain
+
+**GRID DEFINITION**
+iMaxUs (<=130), jMaxUs (<=130) : number of cells including mirror cells,
+                                 number of 'real' cells is iMaxUs-2, jMaxus-2
+cx, cy     : stretchparameters - 0=no stretch; 
+                                 >0=smaller cells near position
+                                    indicated by xpos,ypos; 
+                                 <0=smaller cells away from xpos,ypos
+
+**LIQUID PROPERTIES**
+Nu         : kinematic viscosity
+
+
+**BOUNDARY CONDITIONS AND INFLOW CHARACTERISTICS**
+left,right,top,bottom  : type of boundary condition
+                             1=slip 
+                             2=no-slip
+                             7=free outflow : p=0 as boundary condition
+                             8=inflow  : the velocities are prescribed
+UIn,VIn    : in case of inflow conditions, prescribed velocities
+             the sign of UIn/VIn corresponds to the x/y-direction (hence it
+             does not necessarily correspond to the inward pointing direction)
+
+**DISCRETIZATION**
+Alpha      : upwind parameter, discretization of convection term
+                0 = central
+                1 = upwind
+Divuv      : treatment of divergence    
+                0 = substitute div u^n=0 in Poisson equation
+                1 = maintain div u^n in Poisson equation
+
+**POISSON ITERATION PARAMETERS**
+Epsi       : convergence criterion of Poisson solver MILU
+ItMax      : maximal allowed number of iterations of Poisson solver
+Strtp      : initial field of Poisson solver
+               0 = zero field p=0 
+               1 = solution from previous time step, p=poud; 
+
+**TIME STEP**
+TFin       : endtime of simulation
+DelT       : timestep (is adjusted during the simulation in order to
+             keep the CFL number smaller than CFLMax)
+CFLMax     : maximal allowed CFL number
+
+** PRINT/PLOT CONTROL**
+PrtDt      : time between 2 small printouts (to the screen and a file)
+uvp        : velocity and pressure in Matlab format 
+               0=only at end of computation (preferable)
+               1=at every small printout (takes a lot of memory)
+             
+
+
+
+
